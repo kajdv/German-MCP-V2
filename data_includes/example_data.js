@@ -156,7 +156,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.add(25,25, newText("background", "F&uuml;r mich h&ouml;rt sich dieser Satz:").settings.size(700, 30) )   
             .settings.add( 25,75, newText("labelLeft", "vollkommen unnat&uuml;rlich").settings.bold() )
             .settings.add(195,70, getScale("answer").settings.size(200, 0) )
-            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an").settings.bold() )
+            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an.").settings.bold() )
             .print()
         ,        
         newButton("validate", "N&auml;chste Frage.")
@@ -203,7 +203,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.add(25,25, newText("background", "F&uuml;r mich h&ouml;rt sich dieser Satz:").settings.size(700, 30) )   
             .settings.add( 25,75, newText("labelLeft", "vollkommen unnat&uuml;rlich").settings.bold() )
             .settings.add(195,70, getScale("answer").settings.size(200, 0) )
-            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an").settings.bold() )
+            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an.").settings.bold() )
             .print()
         ,
         newText("warning","Bitte w&auml;hlen Sie eine Antwort aus.")
@@ -279,7 +279,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.add(25,25, newText("background", "F&uuml;r mich h&ouml;rt sich dieser Satz:").settings.size(700, 30) )   
             .settings.add( 25,75, newText("labelLeft", "vollkommen unnat&uuml;rlich").settings.bold() )
             .settings.add(195,70, getScale("answer").settings.size(200, 0) )
-            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an").settings.bold() )
+            .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an.").settings.bold() )
             .print()
         ,
         newText("warning","Bitte w&auml;hlen Sie eine Antwort aus.")
