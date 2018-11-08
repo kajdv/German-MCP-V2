@@ -35,7 +35,7 @@ var items = [
         newHtml("prepractice form", "NaturalnessInstructions.html")
             .print()
         ,
-        newButton("continue to expt", "Fortsetzen.")
+        newButton("continue to expt", "Weiter.")
             .print()
             .wait( getHtml("prepractice form").test.complete().failure(getHtml("prepractice form").warn()) )
     )]
@@ -44,7 +44,7 @@ var items = [
         newHtml("balance form", "Balance.html")
             .print()
         ,
-        newButton("continue btn", "Fortsetzen.")
+        newButton("continue btn", "Weiter.")
             .print()
             .wait( getHtml("balance form").test.complete().failure(getHtml("balance form").warn()) )
     )]
@@ -53,7 +53,7 @@ var items = [
         newHtml("scale form", "Scale.html")
             .print()
         ,
-        newButton("continue btn", "Fortsetzen.")  
+        newButton("continue btn", "Weiter.")  
             .print()
             .wait( getHtml("scale form").test.complete().failure(getHtml("scale form").warn()) )
     )]
@@ -62,7 +62,7 @@ var items = [
         newHtml("distract form", "DistractionsOff.html")
             .print()
         ,
-        newButton("continue btn", "Fortsetzen.")
+        newButton("continue btn", "Weiter.")
             .print()
             .wait( getHtml("distract form").test.complete().failure(getHtml("distract form").warn()) )
     )] 
@@ -159,7 +159,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.add(425,75, newText("labeRight", "vollkommen nat&uuml;rlich an.").settings.bold() )
             .print()
         ,        
-        newButton("validate", "N&auml;chste Frage.")
+        newButton("validate", "Weiter.")
             .settings.center()    
             .print()    
             .wait()
@@ -213,7 +213,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.css("margin-left", 50 )
             .print()
         ,
-        newButton("validate", "N&auml;chste Frage.")
+        newButton("validate", "Weiter.")
             .settings.center() 
             .print()    
             .wait(getScale("answer")
@@ -289,7 +289,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
             .settings.css("margin-left", 50 )
             .print()
         ,
-        newButton("validate", "N&auml;chste Frage.")
+        newButton("validate", "Weiter.")
             .settings.center() 
             .print()    
             .wait(getScale("answer")
