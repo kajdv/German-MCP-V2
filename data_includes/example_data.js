@@ -124,12 +124,12 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
         ,
         getFunction("isGood")
             .test.is(true)
-            .success( getText("instructionsText").settings.text("Es ist wahrscheinlich ziemlich leicht vorstellbar, wann Sie diesen Satz verwenden w&uuml;rden. Leute geben ihm normalerweise eine hohe Punktzahl:") )
+            .success( getText("instructionsText").settings.text("Es ist wahrscheinlich ziemlich leicht vorstellbar, wann Du diesen Satz verwenden w&uuml;rdest. Leute geben ihm normalerweise eine hohe Punktzahl:") )
             .failure(
                 getFunction("isIntermed")
                     .test.is(true)
-                    .success( getText("instructionsText").settings.text("Es ist m&ouml;glicherweise nicht so klar, wann oder ob Sie diesen Satz verwenden w&uuml;rden. Leute geben ihm normalerweise eine mittlere Punktzahl:") )
-                    .failure( getText("instructionsText").settings.text("Unabh&auml;ngig von der Situation w&uuml;rden Sie diesen Satz wahrscheinlich nicht verwenden. Leute geben ihm normalerweise eine niedrige Punktzahl:") )
+                    .success( getText("instructionsText").settings.text("Es ist m&ouml;glicherweise nicht so klar, wann oder ob Du diesen Satz verwenden w&uuml;rdest. Leute geben ihm normalerweise eine mittlere Punktzahl:") )
+                    .failure( getText("instructionsText").settings.text("Unabh&auml;ngig von der Situation w&uuml;rdest Du diesen Satz wahrscheinlich nicht verwenden. Leute geben ihm normalerweise eine niedrige Punktzahl:") )
             )
         ,            
         getText("instructionsText")
