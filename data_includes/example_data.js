@@ -237,7 +237,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
     .log("EmbCondition", item.EmbCondition)
     .log("mcpred", item.mcpred)
    // .log("InSitu_Stims", item.InSitu_Stims)     
-    .log("V2_Stims", item.V2_Stims)  
+   // .log("V2_Stims", item.V2_Stims)  
    // .log("SpActAdv_Stims", item.SpActAdv_Stims)           
     .log("PROLIFIC_PID", PennController.GetURLParameter("PROLIFIC_PID"))
 );
@@ -313,7 +313,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-MCP.csv" ).fi
     .log("EmbCondition", item.EmbCondition)
     .log("mcpred", item.mcpred)
    // .log("InSitu_Stims", item.InSitu_Stims)     
-    .log("V2_Stims", item.V2_Stims)  
+   // .log("V2_Stims", item.V2_Stims)  
    // .log("SpActAdv_Stims", item.SpActAdv_Stims)           
     .log("PROLIFIC_PID", PennController.GetURLParameter("PROLIFIC_PID"))  
 );
